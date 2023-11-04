@@ -10,9 +10,7 @@ it("Invoke command ",()=> {
 
     }
 
-    
-    
-    
+   //L'utilisation de invoke est courante pour effectuer des actions ou des assertions spécifiques sur les éléments de la page
     cy.visit('cypress/index.html')
     cy.wrap(student).invoke('isWatching').should('contain','aymen')
 
