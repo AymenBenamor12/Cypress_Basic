@@ -16,7 +16,7 @@ it("hover over command",()=>{
 
  })
 
- it.only("long press command",()=>{
+ it("long press command",()=>{
     
     cy.visit("cypress/index.html")
  
